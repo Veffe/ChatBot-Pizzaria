@@ -66,11 +66,11 @@ public class BotService {
 
             // --- 2. FILTRAGEM ANTI-LOOP ---
             // Descomente para produção!
-            // boolean fromMe = (boolean) key.get("fromMe");
-            // if (fromMe) {
-            //     log.info("Ignorando mensagem própria (fromMe=true)");
-            //     return;
-            // }
+             boolean fromMe = (boolean) key.get("fromMe");
+             if (fromMe) {
+                 log.info("Ign orando mensagem própria (fromMe=true)");
+                 return;
+             }
 
             String remetente = (String) key.get("remoteJid"); 
             String textoMensagem = (String) message.get("conversation");
