@@ -48,9 +48,6 @@ Uma instância da Evolution API configurada
 
 Clone o repositório:
 
-git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO.git](https://github.com/SEU-USUARIO/NOME-DO-REPO.git)
-
-
 Suba a infraestrutura Docker:
 Certifique-se de que o arquivo docker-compose.yml está configurado e execute:
 
